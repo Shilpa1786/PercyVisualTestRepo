@@ -14,4 +14,4 @@ jobs:
       - run: npm install --save-dev @percy/cli
       - run: npx percy snapshot _site/ # or any directory such as public/
         env:
-          PERCY_TOKEN: $
+          PERCY_TOKEN: web_3eeeca3bffa6bdcff777e1370c01a3c9a22e6cf280030199c969f62e59579094
